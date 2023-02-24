@@ -25,7 +25,7 @@ string PrintArray(int[,] a, string massage)
     return "1";
 }
 
-static int[,] SortArray(int[,] a)
+int[,] SortArray(int[,] a)
 {
     int tmpArray = a[0,0];
     for (int i = 0; i < a.GetLength(0); i++)
